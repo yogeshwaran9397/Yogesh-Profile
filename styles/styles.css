@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+body
+ {
+    background: linear-gradient(110deg, #233469 60%, #2b2857 60%);
+    background-color: rgb(30, 9, 68);
+    color:white;
+    font-family:Sans-serif;    
+  }
+
+  .topnav {
+    overflow: hidden;     
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {    
+    color: f2f2f2;
+    outline: 0px solid transparent;    
+    border: 1px solid #0198fa;     
+  }
+  
+  /* .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+.main-frame{    
+    /* background-color:#062f5e; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;        
+    margin-top: 10%;        
+  }
+
+.person-frame{        
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 50px;
+}
+
+.sub-frame
+{
+    margin-left: 15px;
+}
+
+[id^='profile']
+{   text-align:center;
+    padding:5px
+}
+
+.dev-img{
+    width:300px
+}
+
+#profile-name
+{
+    font-size: 50px;
+}
+
+#profile-role
+{
+    font-size: 30px;
+}
+
+#profile-contact
+{
+    font-size: 15px;
+}
+
+.about-frame
+{
+    margin-top: 50px;
+}
+
+#about-cn
+{
+    margin-top:5px;
+    font-size: 20px;
+    text-align: center
+}
+
+.media-frame
+{
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50
+  }
+  
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
